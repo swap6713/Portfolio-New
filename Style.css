@@ -1,0 +1,113 @@
+html{
+	background-color: #1BA098;
+}
+
+/* color classes for bootstrap */
+.bg1{
+	background-color: #1BA098;
+}
+.bg2{
+	background-color: #051622;
+	
+}
+.bg3{
+	background-color: #FFF5E0;
+}
+
+.t1{
+	color:#FFF5E0;
+}
+
+.t2{
+	color: #1BA098;
+}
+
+/* Custom CSS */
+.custom-btn {
+	background-color: #FFF5E0 !important; /* Use !important to ensure it takes precedence */
+	border-color: #FFF5E0 !important; /* Set the border color to match */
+	color: #051622 !important; /* Set the text color to contrast with the background */
+  }
+  
+  
+
+.font-gothic{
+	font-family: Gothic A1;
+}
+
+.font-merriweather{
+	font-family: Merriweather Sans;
+}
+
+.font-gormorant{
+	font-family: Cormorant Garamond;
+}
+.bg-linear{
+	background-color: #1BA098;
+ background-image: linear-gradient(to bottom, #1BA098, #051622);	
+}
+
+/* navigation area  */
+.Nav{
+	display: flex;
+	list-style: none;
+	gap: 35px;
+}
+
+/* boder radius for main hero section */
+.radius50{
+	background-color: #051622;
+	border-bottom-right-radius: 400px;
+	box-shadow: 15px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.heightincrese{
+	height: 680px;
+}
+
+/* Border for profile picture */
+.border10{
+	border:10px solid;
+	border-radius: 50%;
+	border-color: #1BA098;
+}
+
+.hover-effect {
+ border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ transition: background-color 0.3s;
+ transition: transform 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+	transform: scale(1.2);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.269);
+}
+
+/* For Text center */
+.center {
+	text-align: center;
+}
+
+.center-text {
+    text-align: center; /* Center the text horizontally */
+  }
+
+
+
+/* For text pixel 24px */
+.pi24 {
+	font-size: 24px;
+}
+
+.pi74{
+	font-size: 74px;
+}
+
+.pi47{
+	font-size: 47px;
+}
+
+
+
