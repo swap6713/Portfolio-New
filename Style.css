@@ -4,22 +4,26 @@ html{
 
 /* color classes for bootstrap */
 .bg1{
-	background-color: #1BA098;
+	background-color: #1BA098 !important;
 }
 .bg2{
-	background-color: #051622;
+	background-color: #051622 !important;
 	
 }
 .bg3{
-	background-color: #FFF5E0;
+	background-color: #FFF5E0 !important;
 }
 
 .t1{
-	color:#FFF5E0;
+	color:#FFF5E0 !important; 
 }
 
 .t2{
-	color: #1BA098;
+	color: #1BA098 !important;
+}
+
+.t3{
+	color: #051622 !important;
 }
 
 /* Custom CSS */
@@ -109,5 +113,62 @@ html{
 	font-size: 47px;
 }
 
+.contact-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; /* Center vertically */
+}
+
+.contact-form {
+	flex: 1;
+	padding: 20px;
+	padding-left: 200px;
+}
+
+.map {
+	flex: 1;
+	padding: 20px;
+	padding-right: 200px;
+}
+
+.mapR{
+	border-radius: 20px 0px 20px 0px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+/* Add additional CSS styling here as needed */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	background-color: #1BA098;
+	border-radius: 20px 0px 20px 0px;
+}
+
+.textarea1{
+	background-color: #FFF5E0 !important;
+}
 
 
+input[type="submit"] {
+	color: #051622;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Change the placeholder color for input fields and textarea */
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: #051622; /* Change this to your desired color */
+}
+
+.submit{
+	border-radius: 20px 0px 20px 0px;
+	margin-left: 40%;
