@@ -172,3 +172,48 @@ textarea::placeholder {
 .submit{
 	border-radius: 20px 0px 20px 0px;
 	margin-left: 40%;
+}
+
+/* CSS for responsive navigation menu */
+@media (max-width: 767px) {
+	/* Hide the original navigation links */
+	.Nav {
+		display: none;
+	  }
+	
+	.radius50{
+		background-color: #051622;
+		border-bottom-right-radius: 0px;
+		box-shadow: none;
+		padding: 10px;
+	}
+	.bg-linear{
+		margin-top: 150px;
+		padding: 10px;
+	}
+	.contact-container {
+		flex-direction: column; /* Stack items vertically on small screens */
+		padding: none;
+	  }
+	  .map {
+		width: 100%; /* Full width on small screens */
+		padding: none;
+	  }
+	  .contact-form {
+		flex: 1;
+		padding: 5px;
+		padding-left: none;
+	}
+	  /* Adjust spacing and font size for better mobile usability */
+	  .contact-form input,
+	  .contact-form textarea {
+		margin-bottom: 15px;
+		font-size: 16px;
+	  }
+	
+	  .map iframe {
+		max-width: 375px; /* Ensure the map fits the screen width */
+		height: 300px; /* Maintain aspect ratio */
+	  }
+}
+
