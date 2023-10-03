@@ -1,6 +1,4 @@
-html{
-	background-color: #1BA098;
-}
+
 
 /* color classes for bootstrap */
 .bg1{
@@ -48,7 +46,7 @@ html{
 }
 .bg-linear{
 	background-color: #1BA098;
- background-image: linear-gradient(to bottom, #1BA098, #051622);	
+ 	background-image: linear-gradient(to bottom, #1BA098, #051622);	
 }
 
 /* navigation area  */
@@ -86,7 +84,7 @@ html{
 
 .hover-effect:hover {
 	transform: scale(1.2);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.269);
+	/* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.269); */
 }
 
 /* For Text center */
@@ -215,5 +213,47 @@ textarea::placeholder {
 		max-width: 375px; /* Ensure the map fits the screen width */
 		height: 300px; /* Maintain aspect ratio */
 	  }
+
+	  .adjust-hight{
+		padding-top: 0px;
+
+	  }
+	  .heightincrese1{
+		height: 20px;
+	  }
+
+	  .p1{
+		justify-content: center;
+	  }
+
+	  .mapR{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	  }
+
+	  .adjust-width{
+		padding-left: 50px;
+		padding-right: 50px;
+		font-size: 18px;
+	  }
+
+	  .imgpri{
+		height: 180px;
+		width: auto;
+	  }
+
+	  .feature-icon1{
+		height: 100px;
+	  }
+	  .p11{
+		text-align: center;
+		
+	  }
+	 
+
+	
+
+	  
+
 }
 
