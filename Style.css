@@ -111,29 +111,14 @@
 	font-size: 47px;
 }
 
-.contact-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center; /* Center vertically */
-}
 
-.contact-form {
-	flex: 1;
-	padding: 20px;
-	padding-left: 200px;
-}
 
-.map {
-	flex: 1;
-	padding: 20px;
-	padding-right: 200px;
-}
 
-.mapR{
-	border-radius: 20px 0px 20px 0px;
-	margin-top: 50px;
-	margin-bottom: 100px;
-}
+
+
+
+
+
 
 /* Add additional CSS styling here as needed */
 input[type="text"],
@@ -149,6 +134,11 @@ textarea {
 
 .textarea1{
 	background-color: #FFF5E0 !important;
+	border-radius: 20px 0px 20px 0px;
+}
+
+.border20{
+	border-radius: 20px 0px 20px 0px;
 }
 
 
@@ -191,12 +181,10 @@ textarea::placeholder {
 	}
 	.contact-container {
 		flex-direction: column; /* Stack items vertically on small screens */
-		padding: none;
+		gap: 0;
 	  }
-	  .map {
-		width: 100%; /* Full width on small screens */
-		padding: none;
-	  }
+	
+
 	  .contact-form {
 		flex: 1;
 		padding: 5px;
@@ -209,10 +197,7 @@ textarea::placeholder {
 		font-size: 16px;
 	  }
 	
-	  .map iframe {
-		max-width: 375px; /* Ensure the map fits the screen width */
-		height: 300px; /* Maintain aspect ratio */
-	  }
+	  
 
 	  .adjust-hight{
 		padding-top: 0px;
@@ -224,11 +209,6 @@ textarea::placeholder {
 
 	  .p1{
 		justify-content: center;
-	  }
-
-	  .mapR{
-		margin-top: 5px;
-		margin-bottom: 5px;
 	  }
 
 	  .adjust-width{
@@ -249,11 +229,35 @@ textarea::placeholder {
 		text-align: center;
 		
 	  }
-	 
+	  .pi16{
+		font-size: 14px;
+		height: 20px;
+	  }
+
+	  .pad4{
+		padding-left: 30px;
+		padding-right: 30px;
+	  }
+
+	  .mapR{
+		border-radius: 20px 0px 20px 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		height: 300px;
+		width:100%;
+	}
+
+	  .map {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+
+	
 
 	
 
 	  
 
 }
-
